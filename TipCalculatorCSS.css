@@ -196,8 +196,7 @@ section{
         min-width: 200px;
     }
     body{
-        place-self: center;
-        width:90%;
+        place-self: normal;
         padding-left: 10%;
         padding-right: 10%;
         margin-top:20%;
