@@ -1,0 +1,239 @@
+html{
+    min-height:100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: hsl(185, 41%, 84%);
+    border:3px solid pink;
+}
+
+body{
+    /*border:1px solid red;*/
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top:7%;
+    font-family: space mono;
+    font-size: 0.7em;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding:3%;
+    margin-top: 5%;
+    /*border:1px solid black;*/
+    margin-bottom: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap:5%;
+    height:250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: white;
+
+    
+}
+
+.div1{
+    display:grid;
+    /*border:1px solid blue;*/
+    grid-template-rows: 25% 40% 25%;
+   
+    gap:6%;
+    color:hsl(186, 14%, 43%);
+    font-weight: 700;
+}
+input{
+    background-color: hsl(189, 41%, 97%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:0px;
+    font-family: space mono;
+    color:hsl(186, 14%, 43%);
+    font-weight: 700;
+    font-size: large;
+    opacity: 60%;
+    text-align:right;
+
+    
+}
+
+button{
+    width:31%;
+    height:30%;
+    margin-bottom:0.5%;
+    margin-top: 3%;
+    border:0px;
+    background-color: hsl(183, 100%, 15%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color:white;
+    font-family: space mono;
+    font-weight: 700;
+
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: hsl(172, 48%, 63%);
+}
+
+label{
+    border:1px solid red;
+}
+
+.splitter{
+    margin-left: 45%;
+    margin-right:45%;
+}
+
+.space1{
+    grid-column: span 3;
+    margin-top:3%;
+    height:45%;
+    width:82%;
+
+    background-image: url('images/icon-dollar.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 12px 15px;
+    padding-left: 40px; /* Adjust padding to make room for the icon */
+    
+}
+
+.space7{
+    background-color: hsl(189, 41%, 97%);
+    color:hsl(186, 14%, 43%);
+    font-weight: 700;
+}
+.space8{
+    grid-column: span 3;
+    /*width:80%;*/
+    margin-top:3%;
+    height:45%;
+    /*width:95%;*/
+    background-image: url('images/icon-person.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 12px 15px;
+    padding-left: 40px; /* Adjust padding to make room for the icon */
+    
+      
+}
+
+.span2{
+    font-size: 2.2em;
+    font-weight: 500;
+    color:hsl(172, 67%, 45%);
+    font-family: space mono;
+
+}
+
+.span4{
+    font-size: 2.2em;
+    font-weight: 500;
+    color:hsl(172, 67%, 45%);
+    font-family: space mono;
+
+}
+
+.buttonReset{
+    margin-top: 20%;
+    grid-column:span 2;
+    height:50%;
+    width:100%;
+    background-color: hsl(172, 67%, 45%);
+}
+
+.spanError0{
+    position:relative;
+    left:40%;
+}
+
+.spanError{
+    position:relative;
+    left:15%;
+}
+
+
+section{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding:10%;
+    background-color: hsl(183, 100%, 15%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    color:white;
+    font-family: space mono;
+    column-gap:10%;
+    
+
+
+}
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding:0;
+    border:0;
+    display:block;
+}
+
+
+@media only screen and (max-width:500px){
+    html{
+        min-width: 200px;
+    }
+    body{
+        place-self: normal;
+        width:90%;
+        padding-left: 1%;
+        padding-right: 2%;
+        margin-top:20%;
+        font-family: space mono;
+        font-size: 0.7em;
+     }   
+
+     main{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto;
+        width:80%;
+
+        padding:5%;
+        margin-top: 15%;
+        margin-bottom: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
+        gap:5%;
+        height:500px;
+    }
+
+        .div1{
+            display:grid;
+            grid-template-rows: 25% 40% 20%;
+           
+            gap:6%;
+            color:hsl(186, 14%, 43%);
+            font-weight: 700;
+        }
+
+        
+
+        .splitter{
+            margin-left:39%;
+        }
+        
+
+}
+  

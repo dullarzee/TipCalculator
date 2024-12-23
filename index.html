@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="TipCalculatorCSS.css" rel="stylesheet">
+  <script defer src="TipCalculator.js"></script>
+  <title>Tip calculator app</title>
+  
+  
+</head>
+
+
+<body>
+  <img alt="splitter logo" class="splitter" src="images/logo.svg">
+
+  <main>
+   
+    <div class="div1">
+      <div class="divA">
+      Bill   <span class="spanError0"></span>
+      <br>
+      <input class="space1" placeholder="0">
+      </div>
+      <div class="divB">
+      Select Tip % 
+      <br>
+      <button class="space2">5%</button>
+      <button class="space3">10%</button>
+      <button class="space4">15%</button>
+      <button class="space5">25%</button>
+      <button class="space6">50%</button>
+      <button class="space7">Custom</button>
+      </div>
+      <div>
+      Number of People <span class="spanError"></span>
+      <input class="space8" placeholder="                  0">
+      </div>
+
+    </div>
+
+    <section class="theSection">
+      <span class="span1">Tip Amount<span style="color:hsl(184, 14%, 56%); font-size: 0.7em;">/ person</span></span>
+      <span class="span2">$0.00</span>
+      <span class="span3">Total <span style="color:hsl(184, 14%, 56%); font-size: 0.7em;">/ person</span></span>
+      <span class="span4">$0.00</span>
+      <button class="buttonReset">RESET</button>
+
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Dullarzee</a>.
+    </div>
+  </footer>
+</body>
+</html>
