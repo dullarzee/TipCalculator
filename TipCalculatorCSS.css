@@ -196,36 +196,39 @@ section{
         min-width: 200px;
     }
     body{
-        place-self: normal;
+        place-self: center;
         width:90%;
-        padding-left: 1%;
-        padding-right: 2%;
+        padding-left: 10%;
+        padding-right: 10%;
         margin-top:20%;
         font-family: space mono;
         font-size: 0.7em;
+        width:350px;
+        /*border:1px solid red;*/
      }   
 
      main{
         grid-template-rows: auto auto;
-        grid-template-columns: auto;
-        width:80%;
-
-        padding:5%;
+        grid-template-columns: 100%;
+        width:70%;
+        /*border:1px solid red;*/
+        padding:8%;
+        padding-left: 8%;
         margin-top: 15%;
         margin-bottom: 0%;
         margin-left: 5%;
         margin-right: 5%;
         gap:5%;
-        height:500px;
+        height:600px;
     }
 
         .div1{
             display:grid;
-            grid-template-rows: 25% 40% 20%;
-           
+            grid-template-rows: 20% 40% 30%;
+            grid-template-columns: 100%;
             gap:6%;
-            color:hsl(186, 14%, 43%);
-            font-weight: 700;
+            /*border:1px solid blue;*/
+            
         }
 
         
@@ -233,6 +236,27 @@ section{
         .splitter{
             margin-left:39%;
         }
+
+        button{
+            width:48%;
+            height:30%;
+            margin-bottom:0.5%;
+            margin-top: 3%;
+        
+        }
+
+        .div3{
+            margin-top:15%
+        }
+
+        .space8{
+            width:82%;
+        }
+
+        section{
+            width:80%;
+        }
+        
         
 
 }
