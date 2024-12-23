@@ -3,7 +3,7 @@ html{
     padding-left: 10%;
     padding-right: 10%;
     background-color: hsl(185, 41%, 84%);
-    border:3px solid pink;
+    /*border:3px solid pink;*/
 }
 
 body{
